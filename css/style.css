@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 10px 0;
+	border-bottom: 1px solid #EEF0F3;
+}
+.container {
+	width: 90%;
+
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 10%;
+
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 45%;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	color: #0A1939;
+	text-decoration: none;
+	padding: 0 20px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #0843A8;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+/*header end*/
+/*banner start*/
+.banner {
+	padding: 40px 0;
+}
+
+.container2 {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;;
+	overflow: hidden;
+}
+
+.b_content {
+}
+.b_content h1 {
+	margin: 20px 415px;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: #0F2656;
+    line-height: 44px;
+}
+.b_content h1 span {
+	color: #0081FF;
+}
+.b_content p {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+    margin: 20px 308px;
+    line-height: 25px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 48%;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*successful start*/
+.success {
+}
+.s_content {
+	overflow: hidden;
+}
+
+.left {
+	width: 26%;
+    float: left;
+    text-align: right;
+    margin: 15px 20px;
+    padding: 0 0 0 277px;
+}
+.left h2{
+	margin: 20px 0;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #F15767;
+    line-height: 25px;
+}
+.left p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+    line-height: 25px;
+}
+
+.right {
+    width: 40%;
+    float: right;
+    text-align: left;
+    margin: 15px 11px;
+    padding: 0 107px 0 0;
+}
+.right h1{
+	font-family: sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    color: #0F2656;
+    line-height: 55px;
+    margin: 5px 0;
+}
+
+/*successful end*/
+/*end start*/
+.flex_container {
+	display: flex;
+	justify-content: center;
+	margin: 35px 0;
+
+}
+
+.boxwrapper {
+	height: 428px;
+	width: 366px;
+	margin: 20px;
+
+}
+
+.boxwrapper_02 {
+margin: 34px;
+}
+.boxwrapper_02 h2{
+	color: #0F2656;
+}
+.boxwrapper_02 p {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+
+}
+/*end end*/
+/*footer start*/
+footer{
+	background-color: #008AFF;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+}
+.last_box p{
+	margin: 30px;
+}
+.last_box span{
+	color: white;
+	letter-spacing: 5px;
+}
+/*footer end*/
